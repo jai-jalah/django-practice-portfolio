@@ -2,9 +2,10 @@
 
 Just a silly portfolio site built as a way to practice Django!
 
-![Home Page]
-![All Posts]
-![Specific Post]
+![Home Page](media/portfolio/images/home_page_1.png)
+![Home Page 2](media/portfolio/images/home_page_2.png)
+![All Posts](media/portfolio/images/blog_1.png)
+![Specific Post](media/portfolio/images/blog_2.png)
 
 ## How to Use
 
