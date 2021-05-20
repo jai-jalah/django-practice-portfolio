@@ -1,3 +1,5 @@
+{% load static %}
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,8 +10,9 @@
 </head>
 <body>
     <h1>Cool Django Portfolio!!</h1>
+    <img src="{% static 'portfolio/Electro.jpg' %}" height=150 width=150>
     {% for project in projects %}
-        <p>{{ project.title }}</p>
+        <h2>{{ project.title }}</h2>
         <p>{{ project.description }}</p>
         <img src={{ project.image.url }} height=150 width=150>
         {% if project.url %}
